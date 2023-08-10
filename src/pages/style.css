@@ -1,0 +1,98 @@
+.App {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+html {
+	font-style: 16px;
+}
+
+body {
+	margin: 0;
+}
+
+/* styling button */
+#toggle-edit-btn {
+	background-color: #4267b2;
+	border: 1px solid #4267b2;
+	border-radius: 0.3rem;
+	color: #fff;
+	padding: 1rem 2rem;
+	font-size: 1.2rem;
+	margin: 2rem auto;
+}
+
+#toggle-edit-btn:focus,
+#toggle-edit-btn:hover {
+	cursor: pointer;
+}
+
+/* styling app content container */
+.app-content {
+	margin: 1rem auto;
+	width: 80%;
+	padding: 5%;
+	background-color: #f4f5f9;
+}
+
+/* styling alert text when edit mode is enabled */
+.edit-mode-alert {
+	text-decoration: underline;
+	color: #c80000;
+}
+
+/* styling text parsed */
+.text-container > *,
+.editor-container > * {
+	text-align: left;
+}
+.css-hxtskf {
+	margin-top: 5.75rem !important;
+}
+.blog-wrapper > h1 {
+	font-size: 2.25rem;
+	line-height: 1.2;
+	font-family: var(--chakra-fonts-heading);
+	font-weight: var(--chakra-fontWeights-bold);
+	padding-top: var(--chakra-space-5);
+	padding-bottom: var(--chakra-space-5);
+}
+.blog-wrapper > h2 {
+	font-size: 1.5rem;
+	font-size: bolder;
+}
+.blog-wrapper > h3 {
+	font-size: 1.17rem;
+	font-size: bolder;
+}
+.blog-wrapper > h4 {
+	font-size: 1rem;
+	font-size: bolder;
+}
+
+.ce-block__content > h1 {
+	font-size: 2.25rem;
+	line-height: 1.2;
+	font-family: var(--chakra-fonts-heading);
+	font-weight: var(--chakra-fontWeights-bold);
+	padding-top: var(--chakra-space-5);
+	padding-bottom: var(--chakra-space-5);
+}
+.blog-wrapper > h2 {
+	font-size: 1.5rem;
+	font-size: bolder;
+}
+.blog-wrapper > h3 {
+	font-size: 1.17rem;
+	font-size: bolder;
+}
+.blog-wrapper > h4 {
+	font-size: 1rem;
+	font-size: bolder;
+}
+.image-tool__caption {
+	display: none;
+}
+.codex-editor__redactor {
+	padding-bottom: 100px !important;
+}
